@@ -30,6 +30,7 @@ enable_testing()
 
 if (${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
 	add_subdirectory(../win-iconv win-iconv)
+	add_subdirectory(libxml2)
 	add_subdirectory(ekaya)
 	add_subdirectory(winkmfl)
 endif (${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
